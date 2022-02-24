@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableRabbit
 @SpringBootApplication(scanBasePackages = "com.gisa")
-public class GisaAgendaApplication {
+public class GisaLegadoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GisaAgendaApplication.class, args);
+		SpringApplication.run(GisaLegadoApplication.class, args);
 	}
 
 }

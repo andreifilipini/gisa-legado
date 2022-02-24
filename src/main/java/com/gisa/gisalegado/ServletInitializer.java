@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(GisaAgendaApplication.class);
+		return application.sources(GisaLegadoApplication.class);
 	}
 
 }
